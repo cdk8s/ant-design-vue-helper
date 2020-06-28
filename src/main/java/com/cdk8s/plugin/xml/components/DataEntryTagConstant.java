@@ -379,11 +379,73 @@ public class DataEntryTagConstant {
 		// -------------------------------------------------------------------
 
 		HashMap<String, String[]> transfer = new HashMap<>();
-		transfer.put("current", new String[]{});
-		transfer.put("hideOnSinglePage", new String[]{"true", "false"});
+		transfer.put("dataSource", new String[]{});
+		transfer.put("disabled", new String[]{"true", "false"});
+		transfer.put("filterOption", new String[]{});
+		transfer.put("footer", new String[]{});
+		transfer.put("lazy", new String[]{});
+		transfer.put("listStyle", new String[]{});
+		transfer.put("locale", new String[]{});
+		transfer.put("operations", new String[]{});
+		transfer.put("render", new String[]{});
+		transfer.put("selectedKeys", new String[]{});
+		transfer.put("showSearch", new String[]{"true", "false"});
+		transfer.put("targetKeys", new String[]{});
+		transfer.put("titles", new String[]{});
 		TAG_CONSTANT.put("a-transfer", transfer);
 
 		// -------------------------------------------------------------------
+
+
+		HashMap<String, String[]> treeSelect = new HashMap<>();
+		treeSelect.put("allowClear", new String[]{"true", "false"});
+		treeSelect.put("defaultValue", new String[]{});
+		treeSelect.put("disabled", new String[]{"true", "false"});
+		treeSelect.put("dropdownClassName", new String[]{});
+		treeSelect.put("dropdownMatchSelectWidth", new String[]{"true", "false"});
+		treeSelect.put("dropdownStyle", new String[]{});
+		treeSelect.put("filterTreeNode", new String[]{});
+		treeSelect.put("getPopupContainer", new String[]{});
+		treeSelect.put("labelInValue", new String[]{"true", "false"});
+		treeSelect.put("loadData", new String[]{});
+		treeSelect.put("maxTagCount", new String[]{});
+		treeSelect.put("maxTagPlaceholder", new String[]{});
+		treeSelect.put("multiple", new String[]{"true", "false"});
+		treeSelect.put("placeholder", new String[]{});
+		treeSelect.put("searchPlaceholder", new String[]{});
+		treeSelect.put("searchValue", new String[]{});
+		treeSelect.put("treeIcon", new String[]{"true", "false"});
+		treeSelect.put("showCheckedStrategy", new String[]{});
+		treeSelect.put("showSearch", new String[]{"true", "false"});
+		treeSelect.put("size", new String[]{"default", "large", "small"});
+		treeSelect.put("suffixIcon", new String[]{});
+		treeSelect.put("treeCheckable", new String[]{"true", "false"});
+		treeSelect.put("treeCheckStrictly", new String[]{"true", "false"});
+		treeSelect.put("treeData", new String[]{});
+		treeSelect.put("treeDataSimpleMode", new String[]{});
+		treeSelect.put("treeDefaultExpandAll", new String[]{"true", "false"});
+		treeSelect.put("treeDefaultExpandedKeys", new String[]{});
+		treeSelect.put("treeExpandedKeys", new String[]{});
+		treeSelect.put("treeNodeFilterProp", new String[]{});
+		treeSelect.put("treeNodeLabelProp", new String[]{});
+		treeSelect.put("value", new String[]{});
+		TAG_CONSTANT.put("a-tree-select", treeSelect);
+
+
+		HashMap<String, String[]> treeSelectNode = new HashMap<>();
+		treeSelectNode.put("selectable", new String[]{"true", "false"});
+		treeSelectNode.put("disableCheckbox", new String[]{"true", "false"});
+		treeSelectNode.put("disabled", new String[]{"true", "false"});
+		treeSelectNode.put("isLeaf", new String[]{"true", "false"});
+		treeSelectNode.put("key", new String[]{});
+		treeSelectNode.put("title", new String[]{});
+		treeSelectNode.put("value", new String[]{});
+		treeSelectNode.put("scopedSlots", new String[]{});
+		TAG_CONSTANT.put("a-tree-select-node", treeSelectNode);
+
+		// -------------------------------------------------------------------
+		// -------------------------------------------------------------------
+
 		// -------------------------------------------------------------------
 
 	}
