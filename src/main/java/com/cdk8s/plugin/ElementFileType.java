@@ -6,6 +6,7 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+// zchtodo 检查下这个类的作用
 public class ElementFileType extends LanguageFileType {
     public static final ElementFileType INSTANCE = new ElementFileType();
 

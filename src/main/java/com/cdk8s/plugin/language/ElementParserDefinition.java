@@ -9,6 +9,7 @@ import com.intellij.psi.PsiFile;
 import com.intellij.psi.tree.IFileElementType;
 import org.jetbrains.annotations.NotNull;
 
+// zchtodo 检查下这个类的作用
 public class ElementParserDefinition extends HTMLParserDefinition {
     @NotNull
     @Override

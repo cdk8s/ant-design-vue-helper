@@ -5,6 +5,7 @@ import org.jetbrains.annotations.Nullable;
 
 /**
  * 用于展示代码模板
+ * zchtodo 检查下这个类的作用
  */
 public class ElementTemplatesProvider implements DefaultLiveTemplatesProvider {
     @Override
