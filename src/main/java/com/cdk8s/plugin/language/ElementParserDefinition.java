@@ -1,4 +1,4 @@
-package com.element.language;
+package com.cdk8s.plugin.language;
 
 import com.intellij.lang.PsiParser;
 import com.intellij.lang.html.HTMLParserDefinition;

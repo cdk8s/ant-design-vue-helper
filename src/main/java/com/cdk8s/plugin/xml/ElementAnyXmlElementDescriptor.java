@@ -1,4 +1,4 @@
-package com.element.xml;
+package com.cdk8s.plugin.xml;
 
 import com.intellij.openapi.util.Condition;
 import com.intellij.psi.PsiElement;

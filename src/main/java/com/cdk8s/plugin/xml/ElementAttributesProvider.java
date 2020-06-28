@@ -1,4 +1,4 @@
-package com.element.xml;
+package com.cdk8s.plugin.xml;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.xml.XmlTag;

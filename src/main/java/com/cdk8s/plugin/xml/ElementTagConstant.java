@@ -1,4 +1,4 @@
-package com.element.xml;
+package com.cdk8s.plugin.xml;
 
 import java.util.HashMap;
 

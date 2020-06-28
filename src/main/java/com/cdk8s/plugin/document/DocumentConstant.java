@@ -1,4 +1,4 @@
-package com.element.document;
+package com.cdk8s.plugin.document;
 
 public class DocumentConstant {
     /* element */

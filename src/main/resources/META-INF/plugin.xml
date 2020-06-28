@@ -34,19 +34,19 @@
     <extensions defaultExtensionNs="com.intellij">
 
         <!-- Add your extensions here -->
-        <fileTypeFactory implementation="com.element.ElementFileTypeFactory" />
+        <fileTypeFactory implementation="com.cdk8s.plugin.ElementFileTypeFactory" />
         <!--<lang.parserDefinition language="element" implementationClass="com.elementent.language.elementParserDefinition"/>-->
 
         <!-- 代码块提示 -->
-        <defaultLiveTemplatesProvider implementation="com.element.ElementTemplatesProvider"/>
+        <defaultLiveTemplatesProvider implementation="com.cdk8s.plugin.ElementTemplatesProvider"/>
 
         <!-- 标签文档提示 -->
-        <lang.documentationProvider language="HTML" implementationClass="com.element.document.DocumentProvider" order="first"/>
+        <lang.documentationProvider language="HTML" implementationClass="com.cdk8s.plugin.document.DocumentProvider" order="first"/>
 
         <!-- 标签自动完成、属性提示 -->
-        <xml.tagNameProvider implementation="com.element.xml.ElementTagNameProvider"/>
-        <xml.elementDescriptorProvider implementation="com.element.xml.ElementTagNameProvider" order="first"/>
-        <xml.attributeDescriptorsProvider implementation="com.element.xml.ElementAttributesProvider" />
+        <xml.tagNameProvider implementation="com.cdk8s.plugin.xml.ElementTagNameProvider"/>
+        <xml.elementDescriptorProvider implementation="com.cdk8s.plugin.xml.ElementTagNameProvider" order="first"/>
+        <xml.attributeDescriptorsProvider implementation="com.cdk8s.plugin.xml.ElementAttributesProvider" />
 
     </extensions>
 

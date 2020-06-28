@@ -1,4 +1,4 @@
-package com.element;
+package com.cdk8s.plugin;
 
 import com.intellij.codeInsight.template.impl.DefaultLiveTemplatesProvider;
 import org.jetbrains.annotations.Nullable;

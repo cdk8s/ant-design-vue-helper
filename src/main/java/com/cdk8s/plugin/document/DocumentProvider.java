@@ -1,4 +1,4 @@
-package com.element.document;
+package com.cdk8s.plugin.document;
 
 import com.intellij.lang.documentation.AbstractDocumentationProvider;
 import com.intellij.openapi.util.text.StringUtil;

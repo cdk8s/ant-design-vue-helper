@@ -1,4 +1,4 @@
-package com.element;
+package com.cdk8s.plugin;
 
 import com.intellij.openapi.fileTypes.FileTypeConsumer;
 import com.intellij.openapi.fileTypes.FileTypeFactory;

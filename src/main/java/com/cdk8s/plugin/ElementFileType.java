@@ -1,4 +1,4 @@
-package com.element;
+package com.cdk8s.plugin;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;
