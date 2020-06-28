@@ -157,6 +157,233 @@ public class DataEntryTagConstant {
 
 		// -------------------------------------------------------------------
 
+		HashMap<String, String[]> form = new HashMap<>();
+		form.put("form", new String[]{});
+		form.put("hideRequiredMark", new String[]{"true", "false"});
+		form.put("layout", new String[]{"horizontal", "vertical", "inline"});
+		form.put("labelCol", new String[]{});
+		form.put("wrapperCol", new String[]{});
+		form.put("selfUpdate", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-form", form);
+
+		HashMap<String, String[]> formItem = new HashMap<>();
+		formItem.put("colon", new String[]{"true", "false"});
+		formItem.put("extra", new String[]{});
+		formItem.put("hasFeedback", new String[]{"true", "false"});
+		formItem.put("help", new String[]{});
+		formItem.put("label", new String[]{});
+		formItem.put("labelCol", new String[]{});
+		formItem.put("required", new String[]{"true", "false"});
+		formItem.put("validateStatus", new String[]{});
+		formItem.put("wrapperCol", new String[]{});
+		formItem.put("selfUpdate", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-form-item", formItem);
+
+		// -------------------------------------------------------------------
+
+
+		HashMap<String, String[]> input = new HashMap<>();
+		input.put("addonAfter", new String[]{});
+		input.put("addonBefore", new String[]{});
+		input.put("defaultValue", new String[]{});
+		input.put("id", new String[]{});
+		input.put("prefix", new String[]{});
+		input.put("disabled", new String[]{"true", "false"});
+		input.put("size", new String[]{"default", "large", "small"});
+		input.put("suffix", new String[]{});
+		input.put("type", new String[]{});
+		input.put("value", new String[]{});
+		input.put("allowClear", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-input", input);
+
+		HashMap<String, String[]> textarea = new HashMap<>();
+		textarea.put("autosize", new String[]{"true", "false"});
+		textarea.put("defaultValue", new String[]{});
+		textarea.put("value", new String[]{});
+		TAG_CONSTANT.put("a-textarea", textarea);
+
+		HashMap<String, String[]> inputSearch = new HashMap<>();
+		inputSearch.put("enterButton", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-input-search", inputSearch);
+
+		HashMap<String, String[]> inputGroup = new HashMap<>();
+		inputGroup.put("compact", new String[]{"true", "false"});
+		inputGroup.put("size", new String[]{"default", "large", "small"});
+		TAG_CONSTANT.put("a-input-group", inputGroup);
+
+		HashMap<String, String[]> inputPassword = new HashMap<>();
+		inputPassword.put("visibilityToggle", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-input-password", inputPassword);
+
+		// -------------------------------------------------------------------
+
+
+		HashMap<String, String[]> inputNumber = new HashMap<>();
+		inputNumber.put("autoFocus", new String[]{"true", "false"});
+		inputNumber.put("defaultValue", new String[]{});
+		inputNumber.put("disabled", new String[]{"true", "false"});
+		inputNumber.put("formatter", new String[]{});
+		inputNumber.put("max", new String[]{});
+		inputNumber.put("min", new String[]{});
+		inputNumber.put("parser", new String[]{});
+		inputNumber.put("precision", new String[]{});
+		inputNumber.put("decimalSeparator", new String[]{});
+		inputNumber.put("size", new String[]{});
+		inputNumber.put("step", new String[]{});
+		inputNumber.put("value", new String[]{});
+		TAG_CONSTANT.put("a-input-number", inputNumber);
+
+		// -------------------------------------------------------------------
+
+
+		HashMap<String, String[]> radio = new HashMap<>();
+		radio.put("autoFocus", new String[]{"true", "false"});
+		radio.put("checked", new String[]{"true", "false"});
+		radio.put("defaultChecked", new String[]{"true", "false"});
+		radio.put("value", new String[]{});
+		TAG_CONSTANT.put("a-radio", radio);
+
+		HashMap<String, String[]> radioGroup = new HashMap<>();
+		radioGroup.put("defaultValue", new String[]{});
+		radioGroup.put("disabled", new String[]{"true", "false"});
+		radioGroup.put("name", new String[]{});
+		radioGroup.put("options", new String[]{});
+		radioGroup.put("size", new String[]{"default", "large", "small"});
+		radioGroup.put("value", new String[]{});
+		radioGroup.put("buttonStyle", new String[]{"outline", "solid"});
+		TAG_CONSTANT.put("a-radio-group", radioGroup);
+
+		// -------------------------------------------------------------------
+
+		HashMap<String, String[]> rate = new HashMap<>();
+		rate.put("allowClear", new String[]{"true", "false"});
+		rate.put("allowHalf", new String[]{"true", "false"});
+		rate.put("autoFocus", new String[]{"true", "false"});
+		rate.put("character", new String[]{});
+		rate.put("count", new String[]{});
+		rate.put("defaultValue", new String[]{});
+		rate.put("disabled", new String[]{"true", "false"});
+		rate.put("tooltips", new String[]{});
+		rate.put("value", new String[]{});
+		TAG_CONSTANT.put("a-rate", rate);
+
+		// -------------------------------------------------------------------Ò
+
+		HashMap<String, String[]> select = new HashMap<>();
+		select.put("allowClear", new String[]{"true", "false"});
+		select.put("autoClearSearchValue", new String[]{"true", "false"});
+		select.put("autoFocus", new String[]{"true", "false"});
+		select.put("defaultActiveFirstOption", new String[]{"true", "false"});
+		select.put("defaultValue", new String[]{});
+		select.put("disabled", new String[]{"true", "false"});
+		select.put("dropdownClassName", new String[]{});
+		select.put("dropdownMatchSelectWidth", new String[]{"true", "false"});
+		select.put("dropdownRender", new String[]{});
+		select.put("dropdownStyle", new String[]{});
+		select.put("filterOption", new String[]{});
+		select.put("firstActiveValue", new String[]{});
+		select.put("getPopupContainer", new String[]{});
+		select.put("labelInValue", new String[]{"true", "false"});
+		select.put("maxTagCount", new String[]{});
+		select.put("maxTagPlaceholder", new String[]{});
+		select.put("maxTagTextLength", new String[]{});
+		select.put("mode", new String[]{"default", "multiple", "tags", "combobox"});
+		select.put("notFoundContent", new String[]{});
+		select.put("optionFilterProp", new String[]{});
+		select.put("optionLabelProp", new String[]{});
+		select.put("placeholder", new String[]{});
+		select.put("showSearch", new String[]{"true", "false"});
+		select.put("showArrow", new String[]{"true", "false"});
+		select.put("size", new String[]{"large", "small", "default"});
+		select.put("suffixIcon", new String[]{});
+		select.put("removeIcon", new String[]{});
+		select.put("clearIcon", new String[]{});
+		select.put("menuItemSelectedIcon", new String[]{});
+		select.put("tokenSeparators", new String[]{});
+		select.put("value", new String[]{});
+		select.put("options", new String[]{});
+		select.put("defaultOpen", new String[]{"true", "false"});
+		select.put("open", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-pagination", select);
+
+
+		HashMap<String, String[]> selectOption = new HashMap<>();
+		selectOption.put("disabled", new String[]{"true", "false"});
+		selectOption.put("key", new String[]{});
+		selectOption.put("title", new String[]{});
+		selectOption.put("value", new String[]{});
+		selectOption.put("class", new String[]{});
+		TAG_CONSTANT.put("a-select-option", selectOption);
+
+		// -------------------------------------------------------------------
+
+		HashMap<String, String[]> slider = new HashMap<>();
+		slider.put("autoFocus", new String[]{"true", "false"});
+		slider.put("defaultValue", new String[]{});
+		slider.put("disabled", new String[]{"true", "false"});
+		slider.put("dots", new String[]{"true", "false"});
+		slider.put("included", new String[]{"true", "false"});
+		slider.put("marks", new String[]{});
+		slider.put("max", new String[]{});
+		slider.put("min", new String[]{});
+		slider.put("range", new String[]{"true", "false"});
+		slider.put("step", new String[]{});
+		slider.put("tipFormatter", new String[]{});
+		slider.put("value", new String[]{});
+		slider.put("vertical", new String[]{"true", "false"});
+		slider.put("tooltipVisible", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-slider", slider);
+
+		// -------------------------------------------------------------------
+
+		HashMap<String, String[]> Aswitch = new HashMap<>();
+		Aswitch.put("autoFocus", new String[]{"true", "false"});
+		Aswitch.put("checked", new String[]{"true", "false"});
+		Aswitch.put("checkedChildren", new String[]{});
+		Aswitch.put("defaultChecked", new String[]{"true", "false"});
+		Aswitch.put("disabled", new String[]{"true", "false"});
+		Aswitch.put("loading", new String[]{"true", "false"});
+		Aswitch.put("size", new String[]{});
+		Aswitch.put("unCheckedChildren", new String[]{});
+		TAG_CONSTANT.put("a-switch", Aswitch);
+
+		// -------------------------------------------------------------------
+
+		HashMap<String, String[]> timePicker = new HashMap<>();
+		timePicker.put("addon", new String[]{});
+		timePicker.put("allowClear", new String[]{"true", "false"});
+		timePicker.put("autoFocus", new String[]{"true", "false"});
+		timePicker.put("clearText", new String[]{});
+		timePicker.put("defaultOpenValue", new String[]{});
+		timePicker.put("defaultValue", new String[]{});
+		timePicker.put("disabled", new String[]{"true", "false"});
+		timePicker.put("disabledHours", new String[]{});
+		timePicker.put("disabledMinutes", new String[]{});
+		timePicker.put("disabledSeconds", new String[]{});
+		timePicker.put("format", new String[]{});
+		timePicker.put("getPopupContainer", new String[]{});
+		timePicker.put("hideDisabledOptions", new String[]{"true", "false"});
+		timePicker.put("hourStep", new String[]{});
+		timePicker.put("inputReadOnly", new String[]{"true", "false"});
+		timePicker.put("minuteStep", new String[]{});
+		timePicker.put("open", new String[]{"true", "false"});
+		timePicker.put("placeholder", new String[]{});
+		timePicker.put("popupClassName", new String[]{});
+		timePicker.put("popupStyle", new String[]{});
+		timePicker.put("secondStep", new String[]{});
+		timePicker.put("suffixIcon", new String[]{});
+		timePicker.put("use12Hours", new String[]{"true", "false"});
+		timePicker.put("value", new String[]{});
+		TAG_CONSTANT.put("a-time-pick", timePicker);
+
+		// -------------------------------------------------------------------
+
+		HashMap<String, String[]> transfer = new HashMap<>();
+		transfer.put("current", new String[]{});
+		transfer.put("hideOnSinglePage", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-transfer", transfer);
+
+		// -------------------------------------------------------------------
 		// -------------------------------------------------------------------
 
 	}
