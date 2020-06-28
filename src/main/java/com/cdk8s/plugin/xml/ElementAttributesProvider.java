@@ -21,7 +21,8 @@ public class ElementAttributesProvider implements XmlAttributeDescriptorsProvide
     @Override
     public XmlAttributeDescriptor[] getAttributeDescriptors(XmlTag xmlTag) {
         final Project project = xmlTag.getProject();
-        for (Map.Entry<String, HashMap<String, String[]>> next : ElementTagConstant.TAG_CONSTANT.entrySet()) {
+        // for (Map.Entry<String, HashMap<String, String[]>> next : ElementTagConstant.TAG_CONSTANT.entrySet()) {
+        for (Map.Entry<String, HashMap<String, String[]>> next : AntDesignVueTagConstant.TAG_CONSTANT.entrySet()) {
             if (next.getKey().equals(xmlTag.getName())) {
                 HashMap<String, String[]> attrMap = next.getValue();
                 XmlAttributeDescriptor[] attributeDescriptors = new ElementAttributeDescriptor[attrMap.size()];

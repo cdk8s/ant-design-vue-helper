@@ -7,7 +7,6 @@ public class GeneralTagConstant {
 	public static HashMap<String, HashMap<String, String[]>> TAG_CONSTANT = new HashMap<>();
 
 	static {
-		// http://localhost:5000/components/button-cn/#api
 		HashMap<String, String[]> button = new HashMap<>();
 		button.put("disabled", new String[]{"true", "false"});
 		button.put("ghost", new String[]{"true", "false"});
@@ -19,6 +18,18 @@ public class GeneralTagConstant {
 		button.put("type", new String[]{"default", "primary", "dashed", "danger", "link"});
 		button.put("block", new String[]{"true", "false"});
 		TAG_CONSTANT.put("a-button", button);
+
+		// -------------------------------------------------------------------
+
+		HashMap<String, String[]> icon = new HashMap<>();
+		icon.put("type", new String[]{});
+		icon.put("style", new String[]{});
+		icon.put("theme", new String[]{"filled","outlined","twoTone"});
+		icon.put("spin", new String[]{"true", "false"});
+		icon.put("rotate", new String[]{});
+		icon.put("component", new String[]{});
+		icon.put("twoToneColor", new String[]{});
+		TAG_CONSTANT.put("a-icon", icon);
 
 		// -------------------------------------------------------------------
 	}

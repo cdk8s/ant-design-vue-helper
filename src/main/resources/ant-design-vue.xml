@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="ant-design-vue">
+	<template name="a-button" value="&lt;a-button$VAR1$&gt;$END$&lt;/a-button&gt;" description="按钮" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-icon" value="&lt;a-icon$VAR1$&gt;$END$&lt;/a-icon&gt;" description="图标" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-row" value="&lt;a-row$VAR1$&gt;$END$&lt;/a-row&gt;" description="栅格 row" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-col" value="&lt;a-col$VAR1$&gt;$END$&lt;/a-col&gt;" description="栅格 col" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-affix" value="&lt;a-affix$VAR1$&gt;$END$&lt;/a-affix&gt;" description="固钉" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-breadcrumb" value="&lt;a-breadcrumb$VAR1$&gt;$END$&lt;/a-breadcrumb&gt;" description="面包屑" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-breadcrumb-item" value="&lt;a-breadcrumb-item$VAR1$&gt;$END$&lt;/a-breadcrumb-item&gt;" description="面包屑 item" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-dropdown" value="&lt;a-dropdown$VAR1$&gt;$END$&lt;/a-dropdown&gt;" description="下拉菜单" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+	<template name="a-dropdown-button" value="&lt;a-dropdown-button$VAR1$&gt;$END$&lt;/a-dropdown-button&gt;" description="下拉菜单" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-menu" value="&lt;a-menu$VAR1$&gt;$END$&lt;/a-menu&gt;" description="导航菜单" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+	<template name="a-menu-item" value="&lt;a-menu-item$VAR1$&gt;$END$&lt;/a-menu-item&gt;" description="导航菜单 item" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+	<template name="a-sub-menu" value="&lt;a-sub-menu$VAR1$&gt;$END$&lt;/a-sub-menu&gt;" description="导航菜单 subItem" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+	<template name="a-menu-item-group" value="&lt;a-menu-item-group$VAR1$&gt;$END$&lt;/a-menu-item-group&gt;" description="导航菜单 Group" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-pagination" value="&lt;a-pagination$VAR1$&gt;$END$&lt;/a-pagination&gt;" description="分页" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-steps" value="&lt;a-steps$VAR1$&gt;$END$&lt;/a-steps&gt;" description="步骤条" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+	<template name="a-step" value="&lt;a-step$VAR1$&gt;$END$&lt;/a-step&gt;" description="步骤" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<!--======================================================-->
+
+	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX-&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+
+</templateSet>

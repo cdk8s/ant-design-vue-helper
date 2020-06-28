@@ -1,62 +1,63 @@
 <idea-plugin>
-    <!-- 插件ID 保持全局唯一 -->
-    <id>com.cdk8s.plugin.antv-helper</id>
-    <name>ant-design-vue-helper</name>
-    <version>1.0</version>
-    <vendor email="cdk8s@qq.com" url="https://github.com/cdk8s/ant-design-vue-helper">ant-design-vue-helper</vendor>
+	<!-- 插件ID 保持全局唯一 -->
+	<id>com.cdk8s.plugin.antv-helper</id>
+	<name>ant-design-vue-helper</name>
+	<version>1.0</version>
+	<vendor email="cdk8s@qq.com" url="https://github.com/cdk8s/ant-design-vue-helper">ant-design-vue-helper</vendor>
 
-    <!--插件描述-->
-    <description><![CDATA[
+	<!--插件描述-->
+	<description><![CDATA[
       Support for ant-design-vue framework.<br/>
-      Before use this plugin, you must install plugin <a href="https://plugins.jetbrains.com/plugin/9442-vue-js">vuejs</a>
+      Before use this plugin, you must install plugin <a href="https://plugins.jetbrains.com/plugin/9442-vue-js">vuejs</a> <br/>
+      Welcome <a href="https://github.com/cdk8s/ant-design-vue-helper">Github</a>
     ]]></description>
 
-    <!--变更日志-->
-    <change-notes><![CDATA[
+	<!--变更日志-->
+	<change-notes><![CDATA[
       1. init. <br/>
-      2. ant-design-vue thanks.
+      2. ant-design-vue thanks. <br/>
       3. cdk8s thanks.
     ]]>
-    </change-notes>
+	</change-notes>
 
-    <!--支持 IntelliJ IDEA 最低的版本号-->
-    <!--官网文档：https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html?search=rang-->
-    <idea-version since-build="193.0"/>
+	<!--支持 IntelliJ IDEA 最低的版本号-->
+	<!--官网文档：https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html?search=rang-->
+	<idea-version since-build="193.0"/>
 
-    <!--相关依赖 start-->
-    <depends>JavaScript</depends>
-    <depends>com.intellij.modules.platform</depends>
-    <!--相关依赖 end-->
+	<!--相关依赖 start-->
+	<depends>JavaScript</depends>
+	<depends>com.intellij.modules.platform</depends>
+	<!--相关依赖 end-->
 
-    <!--扩展内容-->
-    <!--比如添加功能到工具栏，设置/首选项等位置-->
-    <!--官网文档：https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_extensions.html-->
-    <extensions defaultExtensionNs="com.intellij">
+	<!--扩展内容-->
+	<!--比如添加功能到工具栏，设置/首选项等位置-->
+	<!--官网文档：https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_extensions.html-->
+	<extensions defaultExtensionNs="com.intellij">
 
-        <!-- Add your extensions here -->
-        <fileTypeFactory implementation="com.cdk8s.plugin.ElementFileTypeFactory" />
-        <!--<lang.parserDefinition language="element" implementationClass="com.elementent.language.elementParserDefinition"/>-->
+		<!-- Add your extensions here -->
+		<fileTypeFactory implementation="com.cdk8s.plugin.ElementFileTypeFactory" order="first"/>
+		<!--<lang.parserDefinition language="element" implementationClass="com.elementent.language.elementParserDefinition"/>-->
 
-        <!-- 代码块提示 -->
-        <defaultLiveTemplatesProvider implementation="com.cdk8s.plugin.ElementTemplatesProvider"/>
+		<!-- 代码块提示 -->
+		<defaultLiveTemplatesProvider implementation="com.cdk8s.plugin.ElementTemplatesProvider" order="first"/>
 
-        <!-- 标签文档提示 -->
-        <lang.documentationProvider language="HTML" implementationClass="com.cdk8s.plugin.document.DocumentProvider" order="first"/>
+		<!-- 标签文档提示 -->
+		<lang.documentationProvider language="HTML" implementationClass="com.cdk8s.plugin.document.DocumentProvider" order="first"/>
 
-        <!-- 标签自动完成、属性提示 -->
-        <xml.tagNameProvider implementation="com.cdk8s.plugin.xml.ElementTagNameProvider"/>
-        <xml.elementDescriptorProvider implementation="com.cdk8s.plugin.xml.ElementTagNameProvider" order="first"/>
-        <xml.attributeDescriptorsProvider implementation="com.cdk8s.plugin.xml.ElementAttributesProvider" />
+		<!-- 标签自动完成、属性提示 -->
+		<xml.tagNameProvider implementation="com.cdk8s.plugin.xml.ElementTagNameProvider" order="first"/>
+		<xml.elementDescriptorProvider implementation="com.cdk8s.plugin.xml.ElementTagNameProvider" order="first"/>
+		<xml.attributeDescriptorsProvider implementation="com.cdk8s.plugin.xml.ElementAttributesProvider" order="first"/>
 
-    </extensions>
+	</extensions>
 
-    <!--菜单动作，终于菜单栏、工具栏按钮调用-->
-    <!--一般一个插件定义一个即可，类似 main 入口方法-->
-    <!--官网文档：https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_actions.html-->
-    <!--创建 action 官网文档：https://www.jetbrains.org/intellij/sdk/docs/tutorials/action_system/working_with_custom_actions.html-->
-    <!--所有 action 列表项目地址：https://github.com/centic9/IntelliJ-Action-IDs-->
-    <!--所有 action 列表在线文档：https://centic9.github.io/IntelliJ-Action-IDs/-->
-    <actions>
+	<!--菜单动作，终于菜单栏、工具栏按钮调用-->
+	<!--一般一个插件定义一个即可，类似 main 入口方法-->
+	<!--官网文档：https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_actions.html-->
+	<!--创建 action 官网文档：https://www.jetbrains.org/intellij/sdk/docs/tutorials/action_system/working_with_custom_actions.html-->
+	<!--所有 action 列表项目地址：https://github.com/centic9/IntelliJ-Action-IDs-->
+	<!--所有 action 列表在线文档：https://centic9.github.io/IntelliJ-Action-IDs/-->
+	<actions>
 
-    </actions>
+	</actions>
 </idea-plugin>

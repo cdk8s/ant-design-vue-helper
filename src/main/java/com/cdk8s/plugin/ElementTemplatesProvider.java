@@ -10,8 +10,8 @@ import org.jetbrains.annotations.Nullable;
 public class ElementTemplatesProvider implements DefaultLiveTemplatesProvider {
     @Override
     public String[] getDefaultLiveTemplateFiles() {
-        /* 关联 element.xml */
-        return new String[]{"element", "vux"};
+        /* 关联 xml 文件，支持多个 */
+        return new String[]{"element", "ant-design-vue"};
     }
 
     @Nullable

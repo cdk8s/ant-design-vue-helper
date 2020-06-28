@@ -30,7 +30,8 @@ public class ElementTagNameProvider implements XmlElementDescriptorProvider, Xml
      */
     @Override
     public void addTagNameVariants(List<LookupElement> list, @NotNull XmlTag xmlTag, String s) {
-        for (Map.Entry<String, HashMap<String, String[]>> next : ElementTagConstant.TAG_CONSTANT.entrySet()) {
+        // for (Map.Entry<String, HashMap<String, String[]>> next : ElementTagConstant.TAG_CONSTANT.entrySet()) {
+        for (Map.Entry<String, HashMap<String, String[]>> next : AntDesignVueTagConstant.TAG_CONSTANT.entrySet()) {
             list.add(LookupElementBuilder.create(next.getKey()).withInsertHandler(XmlTagInsertHandler.INSTANCE));
         }
     }
@@ -49,7 +50,8 @@ public class ElementTagNameProvider implements XmlElementDescriptorProvider, Xml
         final XmlElementDescriptor descriptor = nsDescriptor != null ? nsDescriptor.getElementDescriptor(xmlTag) : null;
         // 判断是否包含在特定处理标签内
         boolean special = false;
-        for (Map.Entry<String, HashMap<String, String[]>> next : ElementTagConstant.TAG_CONSTANT.entrySet()) {
+        // for (Map.Entry<String, HashMap<String, String[]>> next : ElementTagConstant.TAG_CONSTANT.entrySet()) {
+        for (Map.Entry<String, HashMap<String, String[]>> next : AntDesignVueTagConstant.TAG_CONSTANT.entrySet()) {
             if (next.getKey().equals(xmlTag.getName())) {
                 special = true;
                 break;
