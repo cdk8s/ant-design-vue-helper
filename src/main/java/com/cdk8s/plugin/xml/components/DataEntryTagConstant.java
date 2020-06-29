@@ -444,8 +444,31 @@ public class DataEntryTagConstant {
 		TAG_CONSTANT.put("a-tree-select-node", treeSelectNode);
 
 		// -------------------------------------------------------------------
-		// -------------------------------------------------------------------
+		HashMap<String, String[]> upload = new HashMap<>();
+		upload.put("accept", new String[]{});
+		upload.put("action", new String[]{});
+		upload.put("method", new String[]{});
+		upload.put("beforeUpload", new String[]{});
+		upload.put("customRequest", new String[]{});
+		upload.put("data", new String[]{});
+		upload.put("defaultFileList", new String[]{});
+		upload.put("fileList", new String[]{});
+		upload.put("headers", new String[]{});
+		upload.put("listType", new String[]{});
+		upload.put("name", new String[]{});
+		upload.put("previewFile", new String[]{});
+		upload.put("showUploadList", new String[]{});
+		upload.put("remove", new String[]{});
+		upload.put("transformFile", new String[]{});
+		upload.put("directory", new String[]{"true", "false"});
+		upload.put("disabled", new String[]{"true", "false"});
+		upload.put("multiple", new String[]{"true", "false"});
+		upload.put("supportServerRender", new String[]{"true", "false"});
+		upload.put("withCredentials", new String[]{"true", "false"});
+		upload.put("openFileDialogOnClick", new String[]{"true", "false"});
+		TAG_CONSTANT.put("a-upload", upload);
 
+		// -------------------------------------------------------------------
 		// -------------------------------------------------------------------
 
 	}
