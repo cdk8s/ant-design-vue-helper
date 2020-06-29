@@ -190,7 +190,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-form" value="&lt;a-form$VAR1$&gt;$END$&lt;/a-form&gt;" description="form 表单" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -199,7 +199,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-form-item" value="&lt;a-form-item$VAR1$&gt;$END$&lt;/a-form-item&gt;" description="form item" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -208,7 +208,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-input" value="&lt;a-input$VAR1$&gt;$END$&lt;/a-input&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -217,7 +217,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-textarea" value="&lt;a-textarea$VAR1$&gt;$END$&lt;/a-textarea&gt;" description="多行文本框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -226,7 +226,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-input-search" value="&lt;a-input-search$VAR1$&gt;$END$&lt;/a-input-search&gt;" description="文本搜索框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -235,7 +235,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-input-group" value="&lt;a-input-group$VAR1$&gt;$END$&lt;/a-input-group&gt;" description="输入框组" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -244,7 +244,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-input-password" value="&lt;a-input-password$VAR1$&gt;$END$&lt;/a-input-password&gt;" description="密码输入框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -253,7 +253,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-input-number" value="&lt;a-input-number$VAR1$&gt;$END$&lt;/a-input-number&gt;" description="数字输入框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -262,7 +262,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-radio" value="&lt;a-radio$VAR1$&gt;$END$&lt;/a-radio&gt;" description="单选框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -271,7 +271,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-radio-group" value="&lt;a-radio-group$VAR1$&gt;$END$&lt;/a-radio-group&gt;" description="单选框组" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -280,7 +280,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-rate" value="&lt;a-rate$VAR1$&gt;$END$&lt;/a-rate&gt;" description="评分" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -289,7 +289,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-select" value="&lt;a-select$VAR1$&gt;$END$&lt;/a-select&gt;" description="选择器" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -298,7 +298,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-select-option" value="&lt;a-select-option$VAR1$&gt;$END$&lt;/a-select-option&gt;" description="下拉选择项" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -307,7 +307,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-slider" value="&lt;a-slider$VAR1$&gt;$END$&lt;/a-slider&gt;" description="滑动输入条" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -316,7 +316,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-switch" value="&lt;a-switch$VAR1$&gt;$END$&lt;/a-switch&gt;" description="开关" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -325,7 +325,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-time-pick" value="&lt;a-time-pick$VAR1$&gt;$END$&lt;/a-time-pick&gt;" description="时间选择框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -334,7 +334,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-transfer" value="&lt;a-transfer$VAR1$&gt;$END$&lt;/a-transfer&gt;" description="穿梭框" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -343,7 +343,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-tree-select" value="&lt;a-tree-select$VAR1$&gt;$END$&lt;/a-tree-select&gt;" description="树选择" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -352,7 +352,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-tree-select-node" value="&lt;a-tree-select-node$VAR1$&gt;$END$&lt;/a-tree-select-node&gt;" description="树选择节点" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -361,7 +361,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-upload" value="&lt;a-upload$VAR1$&gt;$END$&lt;/a-upload&gt;" description="上传" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -370,7 +370,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-avatar" value="&lt;a-avatar$VAR1$&gt;$END$&lt;/a-avatar&gt;" description="头像" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -379,7 +379,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-badge" value="&lt;a-badge$VAR1$&gt;$END$&lt;/a-badge&gt;" description="徽标数" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -388,7 +388,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-calendar" value="&lt;a-calendar$VAR1$&gt;$END$&lt;/a-calendar&gt;" description="日历" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -397,7 +397,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-card" value="&lt;a-card$VAR1$&gt;$END$&lt;/a-card&gt;" description="卡片" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -406,7 +406,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-carousel" value="&lt;a-carousel$VAR1$&gt;$END$&lt;/a-carousel&gt;" description="走马灯" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -415,7 +415,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-collapse" value="&lt;a-collapse$VAR1$&gt;$END$&lt;/a-collapse&gt;" description="折叠面板" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -424,7 +424,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-collapse-panel" value="&lt;a-collapse-panel$VAR1$&gt;$END$&lt;/a-collapse-panel&gt;" description="折叠面板 panel" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -433,7 +433,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-comment" value="&lt;a-comment$VAR1$&gt;$END$&lt;/a-comment&gt;" description="评论" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -442,7 +442,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-descriptions" value="&lt;a-descriptions$VAR1$&gt;$END$&lt;/a-descriptions&gt;" description="描述列表" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -451,7 +451,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-descriptions-item" value="&lt;a-descriptions-item-$VAR1$&gt;$END$&lt;/a-descriptions-item&gt;" description="描述列表 item" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -460,7 +460,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-empty" value="&lt;a-empty$VAR1$&gt;$END$&lt;/a-empty&gt;" description="空状态" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -469,7 +469,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-list" value="&lt;a-list-$VAR1$&gt;$END$&lt;/a-list&gt;" description="列表" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -478,7 +478,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-list-item" value="&lt;a-list-item$VAR1$&gt;$END$&lt;/a-list-item&gt;" description="列表 item" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -487,7 +487,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-list-item-meta" value="&lt;a-list-item-meta$VAR1$&gt;$END$&lt;/a-list-item-meta&gt;" description="列表项 meta" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -496,7 +496,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-popover" value="&lt;a-popover$VAR1$&gt;$END$&lt;/a-popover&gt;" description="气泡卡片" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -505,7 +505,7 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-statistic" value="&lt;a-statistic$VAR1$&gt;$END$&lt;/a-statistic&gt;" description="统计数值" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
@@ -514,12 +514,178 @@
 
 	<!--======================================================-->
 
-	<template name="a-XXXXXXXXXX" value="&lt;a-XXX-$VAR1$&gt;$END$&lt;/a-XXX&gt;" description="XXXXXXXXXXX" toReformat="true" toShortenFQNames="true">
+	<template name="a-statistic-countdown" value="&lt;a-statistic-countdown$VAR1$&gt;$END$&lt;/a-statistic-countdown&gt;" description="倒计时" toReformat="true" toShortenFQNames="true">
 		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
 		<context>
 			<option name="Vue" value="true"/>
 		</context>
 	</template>
 
+	<template name="a-table" value="&lt;a-table$VAR1$&gt;$END$&lt;/a-table&gt;" description="表格" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
 
+	<template name="a-tabs" value="&lt;a-tabs$VAR1$&gt;$END$&lt;/a-tabs&gt;" description="标签页" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-tab-pane" value="&lt;a-tab-pane$VAR1$&gt;$END$&lt;/a-tab-pane&gt;" description="标签项" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-tag" value="&lt;a-tag$VAR1$&gt;$END$&lt;/a-tag&gt;" description="标签" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-checkable-tag" value="&lt;a-checkable-tag$VAR1$&gt;$END$&lt;/a-checkable-tag&gt;" description="可选择标签" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-timeline" value="&lt;a-timeline$VAR1$&gt;$END$&lt;/a-timeline&gt;" description="时间轴" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-timeline-item" value="&lt;a-timeline-item$VAR1$&gt;$END$&lt;/a-timeline-item&gt;" description="时间轴 item" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-tooltip" value="&lt;a-tooltip$VAR1$&gt;$END$&lt;/a-tooltip&gt;" description="文字提示" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-tree" value="&lt;a-tree$VAR1$&gt;$END$&lt;/a-tree&gt;" description="树形控件" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-tree-node" value="&lt;a-tree-node$VAR1$&gt;$END$&lt;/a-tree-node&gt;" description="树形控件节点" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-alert" value="&lt;a-alert$VAR1$&gt;$END$&lt;/a-alert&gt;" description="警告提示" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-drawer" value="&lt;a-drawer$VAR1$&gt;$END$&lt;/a-drawer&gt;" description="抽屉" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-modal" value="&lt;a-modal$VAR1$&gt;$END$&lt;/a-modal&gt;" description="模态框" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-popconfirm" value="&lt;a-popconfirm$VAR1$&gt;$END$&lt;/a-popconfirm&gt;" description="气泡确认框" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-progress" value="&lt;a-progress$VAR1$&gt;$END$&lt;/a-progress&gt;" description="进度条" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-result" value="&lt;a-result$VAR1$&gt;$END$&lt;/a-result&gt;" description="结果" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-skeleton" value="&lt;a-skeleton$VAR1$&gt;$END$&lt;/a-skeleton&gt;" description="骨架屏" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-spin" value="&lt;a-spin$VAR1$&gt;$END$&lt;/a-spin&gt;" description="加载中" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-anchor" value="&lt;a-anchor$VAR1$&gt;$END$&lt;/a-anchor&gt;" description="锚点" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-anchor-link" value="&lt;a-anchor-link$VAR1$&gt;$END$&lt;/a-anchor-link&gt;" description="锚点link" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-back-top" value="&lt;a-back-top$VAR1$&gt;$END$&lt;/a-back-top&gt;" description="回到顶部" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-config-provider" value="&lt;a-config-provider$VAR1$&gt;$END$&lt;/a-config-provider&gt;" description="全局化配置" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-divider" value="&lt;a-divider$VAR1$&gt;$END$&lt;/a-divider&gt;" description="全局化配置" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
+
+	<template name="a-locale-provider" value="&lt;a-locale-provider$VAR1$&gt;$END$&lt;/a-locale-provider&gt;" description="国际化" toReformat="true" toShortenFQNames="true">
+		<variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+		<context>
+			<option name="Vue" value="true"/>
+		</context>
+	</template>
 </templateSet>

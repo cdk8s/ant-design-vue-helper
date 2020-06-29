@@ -304,7 +304,7 @@ public class DataEntryTagConstant {
 		select.put("options", new String[]{});
 		select.put("defaultOpen", new String[]{"true", "false"});
 		select.put("open", new String[]{"true", "false"});
-		TAG_CONSTANT.put("a-pagination", select);
+		TAG_CONSTANT.put("a-select", select);
 
 
 		HashMap<String, String[]> selectOption = new HashMap<>();
