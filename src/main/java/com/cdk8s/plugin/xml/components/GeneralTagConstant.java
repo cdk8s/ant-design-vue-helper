@@ -8,16 +8,20 @@ public class GeneralTagConstant {
 
 	static {
 		HashMap<String, String[]> button = new HashMap<>();
+		button.put("type", new String[]{"default", "primary", "dashed", "danger", "ghost", "link"});
+		button.put("htmlType", new String[]{"button", "submit", "reset", "menu"});
 		button.put("disabled", new String[]{"true", "false"});
 		button.put("ghost", new String[]{"true", "false"});
-		button.put("htmlType", new String[]{"button", "submit", "reset"});
 		button.put("icon", new String[]{});
 		button.put("loading", new String[]{"true", "false"});
 		button.put("shape", new String[]{"circle", "round"});
 		button.put("size", new String[]{"default", "small", "large"});
-		button.put("type", new String[]{"default", "primary", "dashed", "danger", "link"});
 		button.put("block", new String[]{"true", "false"});
 		TAG_CONSTANT.put("a-button", button);
+
+		HashMap<String, String[]> buttonGroup = new HashMap<>();
+		buttonGroup.put("size", new String[]{"small", "large", "default"});
+		TAG_CONSTANT.put("a-button-group", buttonGroup);
 
 		// -------------------------------------------------------------------
 
