@@ -3,14 +3,14 @@ package com.cdk8s.plugin.xml.components;
 import java.util.HashMap;
 
 
-public class LayoutTagConstant {
+public class DataDisplayTagConstant {
 	public static HashMap<String, HashMap<String, String[]>> TAG_CONSTANT = new HashMap<>();
 
 	static {
 		HashMap<String, String[]> avatar = new HashMap<>();
 		avatar.put("icon", new String[]{});
-		avatar.put("shape", new String[]{"circle","square"});
-		avatar.put("size", new String[]{"large","small","default"});
+		avatar.put("shape", new String[]{"circle", "square"});
+		avatar.put("size", new String[]{"large", "small", "default"});
 		avatar.put("src", new String[]{});
 		avatar.put("srcSet", new String[]{});
 		avatar.put("alt", new String[]{});
@@ -23,7 +23,7 @@ public class LayoutTagConstant {
 		badge.put("count", new String[]{});
 		badge.put("offset", new String[]{});
 		badge.put("overflowCount", new String[]{});
-		badge.put("status", new String[]{"success","processing","default","error","warning"});
+		badge.put("status", new String[]{"success", "processing", "default", "error", "warning"});
 		badge.put("text", new String[]{});
 		badge.put("numberStyle", new String[]{});
 		badge.put("title", new String[]{});
@@ -60,7 +60,7 @@ public class LayoutTagConstant {
 		card.put("tabList", new String[]{});
 		card.put("title", new String[]{});
 		card.put("type", new String[]{});
-		card.put("size", new String[]{"default","small"});
+		card.put("size", new String[]{"default", "small"});
 		card.put("bordered", new String[]{"true", "false"});
 		card.put("hoverable", new String[]{"true", "false"});
 		card.put("loading", new String[]{"true", "false"});
@@ -81,7 +81,7 @@ public class LayoutTagConstant {
 		collapse.put("activeKey", new String[]{});
 		collapse.put("defaultActiveKey", new String[]{});
 		collapse.put("expandIcon", new String[]{});
-		collapse.put("expandIconPosition", new String[]{"left","right"});
+		collapse.put("expandIconPosition", new String[]{"left", "right"});
 		collapse.put("bordered", new String[]{"true", "false"});
 		collapse.put("accordion", new String[]{"true", "false"});
 		collapse.put("destroyInactivePanel", new String[]{"true", "false"});
@@ -108,8 +108,8 @@ public class LayoutTagConstant {
 		HashMap<String, String[]> descriptions = new HashMap<>();
 		descriptions.put("title", new String[]{});
 		descriptions.put("column", new String[]{});
-		descriptions.put("size", new String[]{"small","default","middle"});
-		descriptions.put("layout", new String[]{"horizontal","vertical"});
+		descriptions.put("size", new String[]{"small", "default", "middle"});
+		descriptions.put("layout", new String[]{"horizontal", "vertical"});
 		descriptions.put("bordered", new String[]{"true", "false"});
 		descriptions.put("colon", new String[]{"true", "false"});
 		TAG_CONSTANT.put("a-descriptions", descriptions);
@@ -132,7 +132,7 @@ public class LayoutTagConstant {
 		list.put("itemLayout", new String[]{});
 		list.put("loadMore", new String[]{});
 		list.put("locale", new String[]{});
-		list.put("size", new String[]{"default","small","middle"});
+		list.put("size", new String[]{"default", "small", "middle"});
 		list.put("dataSource", new String[]{});
 		list.put("renderItem", new String[]{});
 		list.put("rowKey", new String[]{});
@@ -199,7 +199,7 @@ public class LayoutTagConstant {
 		table.put("rowKey", new String[]{});
 		table.put("rowSelection", new String[]{});
 		table.put("scroll", new String[]{});
-		table.put("size", new String[]{"default","middle","small"});
+		table.put("size", new String[]{"default", "middle", "small"});
 		table.put("title", new String[]{});
 		table.put("customHeaderRow", new String[]{});
 		table.put("customRow", new String[]{});
@@ -246,7 +246,7 @@ public class LayoutTagConstant {
 		timeline.put("pending", new String[]{"true", "false"});
 		timeline.put("reverse", new String[]{"true", "false"});
 		timeline.put("pendingDot", new String[]{});
-		timeline.put("mode", new String[]{"left","alternate","right"});
+		timeline.put("mode", new String[]{"left", "alternate", "right"});
 		TAG_CONSTANT.put("a-timeline", timeline);
 
 		HashMap<String, String[]> timelineItem = new HashMap<>();
@@ -262,8 +262,8 @@ public class LayoutTagConstant {
 		tooltip.put("mouseLeaveDelay", new String[]{});
 		tooltip.put("overlayClassName", new String[]{});
 		tooltip.put("overlayStyle", new String[]{});
-		tooltip.put("placement", new String[]{"top","left","right","bottom","topLeft","topRight","bottomLeft","bottomRight","leftTop","leftBottom","rightTop","rightBottom"});
-		tooltip.put("trigger", new String[]{"hover","focus","click","contextmenu"});
+		tooltip.put("placement", new String[]{"top", "left", "right", "bottom", "topLeft", "topRight", "bottomLeft", "bottomRight", "leftTop", "leftBottom", "rightTop", "rightBottom"});
+		tooltip.put("trigger", new String[]{"hover", "focus", "click", "contextmenu"});
 		tooltip.put("align", new String[]{});
 		tooltip.put("arrowPointAtCenter", new String[]{"true", "false"});
 		tooltip.put("autoAdjustOverflow", new String[]{"true", "false"});

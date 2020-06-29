@@ -24,7 +24,7 @@ public class GeneralTagConstant {
 		HashMap<String, String[]> icon = new HashMap<>();
 		icon.put("type", new String[]{});
 		icon.put("style", new String[]{});
-		icon.put("theme", new String[]{"filled","outlined","twoTone"});
+		icon.put("theme", new String[]{"filled", "outlined", "twoTone"});
 		icon.put("spin", new String[]{"true", "false"});
 		icon.put("rotate", new String[]{});
 		icon.put("component", new String[]{});

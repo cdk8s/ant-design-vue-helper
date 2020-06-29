@@ -3,7 +3,7 @@ package com.cdk8s.plugin.xml.components;
 import java.util.HashMap;
 
 
-public class LayoutTagConstant {
+public class FeedBackTagConstant {
 	public static HashMap<String, HashMap<String, String[]>> TAG_CONSTANT = new HashMap<>();
 
 	static {
@@ -13,10 +13,10 @@ public class LayoutTagConstant {
 		alert.put("description", new String[]{});
 		alert.put("icon", new String[]{});
 		alert.put("message", new String[]{});
-		alert.put("type", new String[]{"success","info","warning","error"});
-		alert.put("banner", new String[]{"true","false"});
-		alert.put("closable", new String[]{"true","false"});
-		alert.put("showIcon", new String[]{"true","false"});
+		alert.put("type", new String[]{"success", "info", "warning", "error"});
+		alert.put("banner", new String[]{"true", "false"});
+		alert.put("closable", new String[]{"true", "false"});
+		alert.put("showIcon", new String[]{"true", "false"});
 		TAG_CONSTANT.put("a-alert", alert);
 
 		// -------------------------------------------------------------------
@@ -38,7 +38,7 @@ public class LayoutTagConstant {
 		drawer.put("width", new String[]{});
 		drawer.put("height", new String[]{});
 		drawer.put("zIndex", new String[]{});
-		drawer.put("placement", new String[]{"top","right","bottom","left"});
+		drawer.put("placement", new String[]{"top", "right", "bottom", "left"});
 		drawer.put("handle", new String[]{});
 		drawer.put("afterVisibleChange", new String[]{});
 		TAG_CONSTANT.put("a-drawer", drawer);
@@ -82,11 +82,11 @@ public class LayoutTagConstant {
 		TAG_CONSTANT.put("a-popconfirm", popconfirm);
 		// -------------------------------------------------------------------
 		HashMap<String, String[]> progress = new HashMap<>();
-		progress.put("type", new String[]{"line","circle","dashboard"});
+		progress.put("type", new String[]{"line", "circle", "dashboard"});
 		progress.put("format", new String[]{});
 		progress.put("percent", new String[]{});
-		progress.put("status", new String[]{"success","exception","normal","active"});
-		progress.put("strokeLinecap", new String[]{"round","square"});
+		progress.put("status", new String[]{"success", "exception", "normal", "active"});
+		progress.put("strokeLinecap", new String[]{"round", "square"});
 		progress.put("strokeColor", new String[]{});
 		progress.put("successPercent", new String[]{});
 		progress.put("showInfo", new String[]{"true", "false"});
@@ -95,7 +95,7 @@ public class LayoutTagConstant {
 		HashMap<String, String[]> result = new HashMap<>();
 		result.put("title", new String[]{});
 		result.put("subTitle", new String[]{});
-		result.put("status", new String[]{"success","error","info","warning","404","403",'500'});
+		result.put("status", new String[]{"success", "error", "info", "warning", "404", "403", "500"});
 		result.put("icon", new String[]{});
 		result.put("extra", new String[]{});
 		TAG_CONSTANT.put("a-result", result);

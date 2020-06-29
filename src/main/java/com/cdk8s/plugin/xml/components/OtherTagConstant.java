@@ -3,7 +3,7 @@ package com.cdk8s.plugin.xml.components;
 import java.util.HashMap;
 
 
-public class LayoutTagConstant {
+public class OtherTagConstant {
 	public static HashMap<String, HashMap<String, String[]>> TAG_CONSTANT = new HashMap<>();
 
 	static {
@@ -43,8 +43,8 @@ public class LayoutTagConstant {
 		// -------------------------------------------------------------------
 		HashMap<String, String[]> divider = new HashMap<>();
 		divider.put("dashed", new String[]{"true", "false"});
-		divider.put("orientation", new String[]{"left","right"});
-		divider.put("type", new String[]{"horizontal","vertical"});
+		divider.put("orientation", new String[]{"left", "right"});
+		divider.put("type", new String[]{"horizontal", "vertical"});
 		TAG_CONSTANT.put("a-divider", divider);
 		// -------------------------------------------------------------------
 		HashMap<String, String[]> localeProvider = new HashMap<>();
