@@ -1,8 +1,8 @@
 
 ## 请留意
 
-- 目前还没写完属性，有兴趣可以联系我们一起参与
-- Github：<https://github.com/cdk8s>
+- 插件已发布官网仓库：<https://plugins.jetbrains.com/plugin/14623-ant-design-vue-helper>
+- CDK8S Github：<https://github.com/cdk8s>
 - 微信公众号：`cd-k8s`
 - 微信：`judasn`
 
