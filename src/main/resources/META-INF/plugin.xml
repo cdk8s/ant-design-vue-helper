@@ -9,16 +9,15 @@
 	<description><![CDATA[
       Support for ant-design-vue framework.<br/>
       Before use this plugin, you must install plugin <a href="https://plugins.jetbrains.com/plugin/9442-vue-js">vuejs</a> <br/>
-      Welcome <a href="https://github.com/cdk8s/ant-design-vue-helper">Github</a>
+      Welcome <a href="https://github.com/cdk8s/ant-design-vue-helper">Github</a> <br/>
+      ant-design-vue thanks. <br/>
+      element Plugin thanks.
     ]]></description>
 
 	<!--变更日志-->
 	<change-notes><![CDATA[
-      1. init. <br/>
-      2. ant-design-vue thanks. <br/>
-      3. cdk8s thanks. <br/>
-      4. element Plugin thanks.
-    ]]>
+      1. init.
+    ]>
 	</change-notes>
 
 	<!--支持 IntelliJ IDEA 最低的版本号-->
